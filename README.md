@@ -10,6 +10,14 @@ Reestructuración del Framework usando las mejores prácticas.
 * Se quito la ejecución permanente de `validation.php`
 * Se cambiaron `if` por `OR`
 * Reestructuración de `getValueFrom` para aceptar callbacks y se agregaron shortcuts
+ 
+
+| Recurso  | POST   | GET  | PUT   | DELETE   |
+|---|---|---|---|---|
+|   | create  | read  | update  | delete  |
+| /recurso  | crea nuevo registro  | lista registros   | actualiza varios registros   | borra todos los registros   |
+| /recurso/1234  |  error | muestra recurso 1234  | si existe actualiza registro 1234 sino marca error  | borra registro 1234  |
+
 
 
 Revisar
