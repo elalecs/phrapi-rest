@@ -14,9 +14,9 @@ Reestructuración del Framework usando las mejores prácticas.
 
 | Recurso  | POST   | GET  | PUT   | DELETE   |
 |---|---|---|---|---|
-|   | create  | index  | update  | delete  |
+|   | create  | index  | bulkUpdate  | bulkDelete  |
 | /recurso  | crea nuevo registro  | lista registros   | actualiza varios registros   | borra todos los registros   |
-|   |   | read  | bulkUpdate  | bulkDelete  |
+|   |   | read  | update  | delete  |
 | /recurso/1234  |  error | muestra recurso 1234  | si existe actualiza registro 1234 sino marca error  | borra registro 1234  |
 
 
